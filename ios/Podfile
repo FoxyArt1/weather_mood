@@ -1,11 +1,16 @@
-# ios/Podfile
+# Uncomment this line to define a global platform for your project
 platform :ios, '11.0'
 
-use_frameworks!
-use_modular_headers!
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), __dir__)
 
 target 'Runner' do
-  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+  use_frameworks!
+  use_modular_headers!
+
+  install_all_flutter_pods File.dirname(File.realpath(__FILE__))
 end
 
 post_install do |installer|
