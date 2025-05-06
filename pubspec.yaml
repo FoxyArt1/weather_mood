@@ -1,0 +1,28 @@
+name: weather_mood
+description: Diploma project — outfit & weather
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.7.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.4
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.0.0
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.3
+  page_transition: ^2.0.9
+  http: ^0.13.5
+  firebase_storage: ^11.6.4
+  cloud_firestore: ^4.17.3
+
+flutter:
+  assets:
+  uses-material-design: true

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399234596260",
+    "project_id": "weathermood-ecbb8",
+    "storage_bucket": "weathermood-ecbb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399234596260:android:225bd1c1f7aba938ea9531",
+        "android_client_info": {
+          "package_name": "com.example.weather_mood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-5M1NGeuD-GciYlpnDiXnldXJdLzpQyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399234596260:android:99c7edef774c1a08ea9531",
+        "android_client_info": {
+          "package_name": "com.example.weathermood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-5M1NGeuD-GciYlpnDiXnldXJdLzpQyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
