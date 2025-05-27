@@ -22,7 +22,10 @@ dependencies:
   http: ^0.13.5
   firebase_storage: ^11.6.4
   cloud_firestore: ^4.17.3
-
 flutter:
   assets:
   uses-material-design: true
+dev_dependencies:
+  firebase_auth_mocks: ^0.13.0
+  flutter_test:
+    sdk: flutter
